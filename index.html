@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi Srivastava - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Aditi Srivastava</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certifications">Certifications</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger" id="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm Aditi Srivastava</h1>
+                    <h2>A Computer Science Engineer specializing in AI/ML</h2>
+                    <p>Welcome to my portfolio! Here you'll find a collection of my latest projects in web development and AI/ML, showcasing my passion for creating impactful and user-centric solutions.</p>
+                    <a href="#portfolio" class="btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/a.jpg" alt="Aditi Srivastava Profile Picture">
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>Hello! I'm Aditi Srivastava, a passionate Computer Science Engineer specializing in AI/ML from Graphic Era (Deemed to be) University, Dehradun. My journey in technology is driven by a desire to build innovative and user-centric solutions.</p>
+                    <p>I have hands-on experience with technologies like C/C++, Python, Java, Machine Learning, HTML, CSS, JavaScript, and MySQL. I'm proficient with software such as VS Code, Oracle Database, and Canva. My internship at JK Technosoft Limited as an IT Intern further solidified my practical skills.</p>
+                    <p>Beyond coding, I bring strong problem-solving skills, adaptability, and good communication to every project. When I'm not developing, I enjoy exploring new AI concepts, reading tech blogs, painting, singing and creating art works.</p>
+                    <a href="Resume_up.pdf" class="btn" download>Download Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/air1.png" alt="AeroConf Project Thumbnail">
+                        <h3>AeroConf: Aircraft Configuration Language</h3>
+                        <p>Developed a DSL and parser using ANTLR and Python for defining, validating, and reporting civil aircraft configurations, including a GUI tool.</p>
+                        <a href="projects/aeroconf.html" class="btn-small">View Details</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/lingual.png" alt="AeroConf Project Thumbnail">
+                        <h3>LinguaLink: Language Translator</h3>
+                        <p>Designed as a user-friendly language translation application which enables users to input text in one language, select a target language, and receive an instant translation in the output area. </p>
+                        <a href="projects/lingualink.html" class="btn-small">View Details</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/music.png" alt="AeroConf Project Thumbnail">
+                        <h3>Melodybox: Music Player</h3>
+                        <p>Developed a desktop-based music player for seamless audio experience using python. </p>
+                        <a href="projects/melodybox.html" class="btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <h2>My Certifications</h2>
+                <div class="certifications-grid">
+                <div class="certification-item">
+                    <h3>IBM Machine Learning with Python</h3>
+                    <p>Coursera</p>
+                    <a href="images/ML.pdf" class="btn-small">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <h3>Landing AI: Build Data Visualization Models</h3>
+                    <p>Coursera</p>
+                    <a href="images/JS.pdf" class="btn-small">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <h3>IBM Introduction to Software Engineering</h3>
+                    <p>Coursera</p>
+                    <a href="images/ibm_se.pdf" class="btn-small">View Certificate</a>
+                </div>
+                <div class="certification-item">
+                    <h3>Deloitte Australia - Technology Job Simulation</h3>
+                    <p>Forage</p>
+                    <a href="images/del.pdf" class="btn-small">View Certificate</a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have a question or a project in mind? Feel free to reach out!</p>
+            <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:aditi04srivastava@gmail.com">aditi04srivastava@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: +919289849175</p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Sector 37, Faridabad, Haryana-121003</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aditi-srivastava-b3713024b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Adi0429" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+        </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy;<span id="year"></span> Aditi Srivastava. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
